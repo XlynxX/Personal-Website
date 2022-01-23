@@ -1,0 +1,26 @@
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 9px 9px 14px rgb(33, 37, 42), -9px -9px 14px rgb(49, 53, 58), inset 0px 0px 0px  rgb(33, 37, 42), inset 0px 0px 0px rgb(49, 53, 58);
+    transition: box-shadow .1s linear;
+    font-size: 32px;
+    padding: 0.4rem 1.6rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    /* background-color: linear-gradient(315deg, rgb(40, 44, 49), rgb(42, 46, 51)); */
+    box-shadow: 0px 0px 14px rgb(33, 37, 42), 0px 0px 14px rgb(49, 53, 58), inset 9px 9px 14px rgb(33, 37, 42), inset -9px -9px 14px rgb(49, 53, 58);
+}
+
+/* @keyframes color {
+    0%   { 
+        box-shadow: 9px 9px 14px rgb(33, 37, 42), -9px -9px 14px rgb(49, 53, 58);
+     }
+    100% { 
+        background: linear-gradient(315deg, rgb(40, 44, 49), rgb(42, 46, 51));
+        box-shadow: inset 9px 9px 14px rgb(33, 37, 42), inset -9px -9px 14px rgb(49, 53, 58);
+     }
+  } */

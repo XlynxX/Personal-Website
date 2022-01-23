@@ -1,0 +1,46 @@
+.switching-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    height: 100%;
+    /* max-height: 32px; */
+    /* height: 32px; */
+    /* height: 64px; */
+}
+
+.switching-ul {
+    padding: 0%;
+    height: 32px;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    padding-top: 28px;
+    margin-top: 32px;
+    overflow: hidden;
+}
+
+.switching-ul li {
+    height: 32px;
+    width: 100%;
+}
+
+.animate {
+    animation-name: change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1.8s, opacity 10s linear;
+}
+
+@keyframes change {
+    0%{transform:translate3d(0,0%,0);}
+    16.66%{transform:translate3d(0,-100%,0);}
+    33.32%{transform:translate3d(0,-200%,0);}
+    46.98%{transform:translate3d(0,-300%,0);}
+    56.64%{transform:translate3d(0,-400%,0);}
+    66.3%{transform:translate3d(0,-800%,0);}
+    100% {transform:translate3d(0,-800%,0);}
+}
