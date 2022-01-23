@@ -13,7 +13,7 @@ const SwitchingText = (props: {
         setTimeout(() => {
             setTextClass(['hide']);
             props.onFinish();
-        }, 4000)
+        }, 3000)
     }, [props.text]);
 
     return (

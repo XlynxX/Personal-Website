@@ -17,7 +17,7 @@
     height: 95%;
     margin: 1rem;
     border-radius: 50px;
-    box-shadow: 3px 3px 7px rgb(33, 37, 42), -3px -3px 7px rgb(49, 53, 58), inset 0px 0px 0px  rgb(33, 37, 42), inset 0px 0px 0px rgb(49, 53, 58);
+    box-shadow: 3px 3px 7px rgb(8, 12, 17), -3px -3px 7px rgb(24, 28, 33), inset 0px 0px 0px  rgb(8, 12, 17), inset 0px 0px 0px rgb(24, 28, 33);
 }
 
 .div-played-button {
@@ -30,7 +30,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: 3px 3px 7px rgb(33, 37, 42), -3px -3px 7px rgb(49, 53, 58), inset 0px 0px 0px  rgb(33, 37, 42), inset 0px 0px 0px rgb(49, 53, 58);
+    box-shadow: 3px 3px 7px rgb(8, 12, 17), -3px -3px 7px rgb(24, 28, 33), inset 0px 0px 0px  rgb(8, 12, 17), inset 0px 0px 0px rgb(24, 28, 33);
     transition: box-shadow .1s linear;
     cursor: pointer;
 }
@@ -40,7 +40,7 @@
 }
 
 .div-played-button:hover {
-    box-shadow: 0px 0px 7px rgb(33, 37, 42), 0px 0px 7px rgb(49, 53, 58), inset 3px 3px 7px rgb(33, 37, 42), inset -3px -3px 7px rgb(49, 53, 58);
+    box-shadow: 0px 0px 7px rgb(8, 12, 17), 0px 0px 7px rgb(24, 28, 33), inset 3px 3px 7px rgb(8, 12, 17), inset -3px -3px 7px rgb(24, 28, 33);
 }
 
 .div-played {
@@ -96,7 +96,7 @@
     justify-content: center;
     padding: 1.6rem;
     border-radius: 20px;
-    box-shadow: 3px 3px 7px rgb(33, 37, 42), -3px -3px 7px rgb(49, 53, 58), inset 0px 0px 0px  rgb(33, 37, 42), inset 0px 0px 0px rgb(49, 53, 58);
+    box-shadow: 3px 3px 7px rgb(8, 12, 17), -3px -3px 7px rgb(24, 28, 33), inset 0px 0px 0px  rgb(8, 12, 17), inset 0px 0px 0px rgb(24, 28, 33);
     animation: divPlayed;
     animation-duration: 2s;
 }
@@ -108,7 +108,7 @@
     border-radius: 12px;
     padding: 0.6rem 0.9rem;
     margin: 0 12px;
-    box-shadow: inset 0px 0px 0px  rgb(33, 37, 42), inset 0px 0px 0px rgb(49, 53, 58);
+    box-shadow: inset 0px 0px 0px  rgb(8, 12, 17), inset 0px 0px 0px rgb(24, 28, 33);
     cursor: pointer;
     text-transform: uppercase;
     transition: box-shadow .1s linear;
@@ -117,7 +117,7 @@
 
 .about-me-div .about-button:hover {
     color: rgb(225, 225, 225);
-    box-shadow: inset 3px 3px 7px rgb(33, 37, 42), inset -3px -3px 7px rgb(49, 53, 58);
+    box-shadow: inset 3px 3px 7px rgb(8, 12, 17), inset -3px -3px 7px rgb(24, 28, 33);
 }
 
 @keyframes descriptionDiv {
