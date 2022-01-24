@@ -1,5 +1,5 @@
 .main-wrapper {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,14 +10,6 @@
 .main-block {
     display: flex;
     flex-wrap: wrap;
-}
-
-.neu-block {
-    width: 98%;
-    height: 95%;
-    margin: 1rem;
-    border-radius: 50px;
-    box-shadow: 3px 3px 7px rgb(12, 12, 12), -3px -3px 7px rgb(26, 26, 26), inset 0px 0px 0px  rgb(12, 12, 12), inset 0px 0px 0px rgb(26, 26, 26);
 }
 
 .div-played-button {
@@ -122,7 +114,7 @@
 
 @keyframes descriptionDiv {
     0% {
-        transform: translateY(20px);
+        transform: translateY(15px);
     }
     100% {
         transform: translateY(0px);
@@ -131,9 +123,24 @@
 
 @keyframes divPlayed {
     0% {
-        transform: translateY(300px);
+        transform: translateY(60vh);
     }
     100% {
         transform: translateY(0px);
       }
 }
+
+
+/* .neu-block {
+    width: 98%;
+    height: 95%;
+    margin: 1rem;
+    border-radius: 50px;
+    box-shadow: 3px 3px 7px rgb(12, 12, 12), -3px -3px 7px rgb(26, 26, 26), inset 0px 0px 0px  rgb(12, 12, 12), inset 0px 0px 0px rgb(26, 26, 26);
+} */
+
+@media screen and (max-width: 600px) {
+    .main-wrapper {
+        margin: 0 1rem;
+    }
+  }

@@ -1,0 +1,79 @@
+.div-played {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+
+    animation: divPlayed;
+    animation-duration: 1.3s;
+}
+
+.neu-block {
+    margin: 0.1rem;
+    padding: 0.6rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgb(12, 12, 12), -3px -3px 7px rgb(26, 26, 26), inset 0px 0px 0px  rgb(12, 12, 12), inset 0px 0px 0px rgb(26, 26, 26);
+    max-width: 50%;
+}
+
+.block-wrapper {
+    overflow: hidden;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.1rem;
+}
+
+.block-wrapper .title {
+    font-size: 34px;
+}
+
+.block-wrapper .text {
+    font-size: 14px;
+}
+
+.block-wrapper .button {
+    width: 40px;
+    height: 40px;
+    margin: 0.3rem;
+    font-size: 24px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 3px 3px 7px rgb(12, 12, 12), -3px -3px 7px rgb(26, 26, 26), inset 0px 0px 0px  rgb(12, 12, 12), inset 0px 0px 0px rgb(26, 26, 26);
+    transition: box-shadow .1s linear;
+    cursor: pointer;
+}
+
+.block-wrapper .button:hover {
+    color: rgb(225, 225, 225);
+    box-shadow: 0px 0px 7px rgb(12, 12, 12), 0px 0px 7px rgb(26, 26, 26), inset 3px 3px 7px rgb(12, 12, 12), inset -3px -3px 7px rgb(26, 26, 26);
+}
+
+@keyframes divPlayed {
+    0% {
+        transform: translateY(60vh);
+    }
+    100% {
+        transform: translateY(0px);
+      }
+}
+
+@media screen and (max-width: 600px) {
+    .block-wrapper {
+        margin-left: 0% !important;
+    }
+    .neu-block {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .neu-block {
+        max-width: 80%;
+    }
+}

@@ -41,7 +41,7 @@ export default function Index() {
                   <a className={styles['about-button']}>
                     статьи
                   </a>
-                  <a className={styles['about-button']}>
+                  <a href='/about' className={styles['about-button']}>
                     обо мне
                   </a>
                 </div>
