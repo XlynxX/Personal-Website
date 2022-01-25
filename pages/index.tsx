@@ -35,10 +35,10 @@ export default function Index() {
                   <p className={styles['link-text']}>{linkText}</p>
                 </div>
                 <div className={`d-flex w-100 mt-4 ${styles['about-me-div']}`}>
-                  <a className={styles['about-button']}>
+                  <a href='/projects' className={styles['about-button']}>
                     проекты
                   </a>
-                  <a className={styles['about-button']}>
+                  <a href='/articles' className={styles['about-button']}>
                     статьи
                   </a>
                   <a href='/about' className={styles['about-button']}>

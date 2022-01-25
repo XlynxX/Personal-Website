@@ -5,6 +5,7 @@
     align-items: center;
     font-size: 26px;
     margin: 0 3rem;
+    overflow: hidden;
 }
 
 .main-block {
@@ -41,7 +42,6 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     padding: 0.3rem;
 }
 
@@ -144,3 +144,9 @@
         margin: 0 1rem;
     }
   }
+
+@media screen and (max-width: 470px) {
+    .about-me-div {
+        flex-direction: column;
+    }
+}
