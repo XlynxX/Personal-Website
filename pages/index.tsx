@@ -6,7 +6,7 @@ import styles from 'styles/index.module.css';
 
 export default function Index() {
   const [switchingText, setSwitchingText] = useState([
-    'Привет', 'Как дела?', 'Меня зовут', 'Кирилл'
+    'Привет', 'Меня зовут', 'Кирилл'
   ]);
   const [isStartupPlayed, setStartupPlayed] = useState(false);
   const [linkText, setLinkText] = useState('');
@@ -28,8 +28,9 @@ export default function Index() {
                 <h1 className={isStartupPlayed ? styles['div-played-text'] : ''}>XlynxX</h1>
                 <div className={isStartupPlayed ? `d-flex w-100 ${styles['div-played-description']}` : 'd-flex w-100'}>
                   <SocialIcon style={{ height: 50, width: 50 }} className={styles['div-played-button']} onMouseLeave={() => setLinkText('')} onMouseEnter={() => setLinkText('Вконтакте')} fgColor='white' bgColor="none" url='https://vk.com/xlynxx1' />
-                  <SocialIcon style={{ height: 50, width: 50 }} className={styles['div-played-button']} onMouseLeave={() => setLinkText('')} onMouseEnter={() => setLinkText('Телеграм')} fgColor='white' bgColor="none" network='telegram' url='https://t.me/xlynxx0' />
+                  <SocialIcon style={{ height: 50, width: 50 }} className={styles['div-played-button']} onMouseLeave={() => setLinkText('')} onMouseEnter={() => setLinkText('Телеграм')} fgColor='white' bgColor="none" network='telegram' url='https://t.me/XlynxX1' />
                   <SocialIcon style={{ height: 50, width: 50 }} className={styles['div-played-button']} onMouseLeave={() => setLinkText('')} onMouseEnter={() => setLinkText('GitHub')} fgColor='white' bgColor="none" url='https://github.com/XlynxX' />
+                  <SocialIcon style={{ height: 50, width: 50 }} className={styles['div-played-button']} onMouseLeave={() => setLinkText('')} onMouseEnter={() => setLinkText('Spotify')} fgColor='white' bgColor="none" url='https://open.spotify.com/user/31nmaymu24kg2kgaus4x6xplc7di?si=df331008cb9b4a48' />
                 </div>
                 <div className={`${linkText != '' ? styles['description-div-animation'] : styles['description-div']}`}>
                   <p className={styles['link-text']}>{linkText}</p>
